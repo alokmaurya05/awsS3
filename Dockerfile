@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jre-jammy
 
 ADD target/springAwsS3.jar springAwsS3.jar
 
